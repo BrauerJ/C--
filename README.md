@@ -33,3 +33,15 @@ Achte darauf das so ein Baum schon sehr viele Member haben kann und du solltest 
 Auch hier nehm dir die Rule of Three zu Herzen.
 Wenn die Klasse erfolgreich implementiert ist mache einige Unit und Performance Tests, mal sehen wer die schnellste Datenstruktur programmiert ;)
 
+
+3. Dynamic Array
+
+In dieser Übung wird ein generisches dynamisch vergrößerebares Array erstellt das vielseitig nutzbar ist und sich selber verwaltet.
+Erstelle eine Template Klasse das die standard Funktionen eines Arrays aufweist und seine Speicherverwaltung selbst in die Hand nimmt.
+Ablaufbeschreibung:
+- Erstelle eine C++ Konsolenanwendung
+- Erstelle eine Template Klasse
+- Sorge dafür das nur der wirklich benötigte Speicher allokiert wird
+- Sorge dafür das das Array beim befüllen automatisch wächst
+		- Sorge dafür das das Array automatisch kleiner wird beim removen
+- Überlade den “[]” Operator angemessen
