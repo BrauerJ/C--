@@ -7,7 +7,7 @@ Exercises
 
 Hallo liebe 913er hier gibts einige C++ Übungen:
 
-1. Vector Class
+ 1. Vector Class
 
 Erstelle eine eigene Vector3 Klasse und/oder eine Vector2 Klasse. Versuche dabei an die Performance zu denken.
 Mache dir Gedanken welche Operatoren implementiert werden sollten.
@@ -19,7 +19,7 @@ Nehme dir die Rule of Three zu Herzen und übe diese in dieser Übung:
 http://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)
 
 
-2. Binary Tree Structure
+ 2. Binary Tree Structure
 
 Erstelle eine eigene Datenstruktur! Ein binärer Baum wird sehr häufig in der Spieleentwicklung benötigt.
 Implementiere eine generische BinaryTree Klasse die folgende Funktionen mindestens zur Verfügung stellt:
@@ -34,7 +34,7 @@ Auch hier nehm dir die Rule of Three zu Herzen.
 Wenn die Klasse erfolgreich implementiert ist mache einige Unit und Performance Tests, mal sehen wer die schnellste Datenstruktur programmiert ;)
 
 
-3. Dynamic Array
+ 3. Dynamic Array
 
 In dieser Übung wird ein generisches dynamisch vergrößerebares Array erstellt das vielseitig nutzbar ist und sich selber verwaltet.
 Erstelle eine Template Klasse das die standard Funktionen eines Arrays aufweist und seine Speicherverwaltung selbst in die Hand nimmt.
