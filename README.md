@@ -43,10 +43,8 @@ Ablaufbeschreibung:
 - Erstelle eine Template Klasse
 - Sorge dafür das nur der wirklich benötigte Speicher allokiert wird
 - Sorge dafür das das Array beim befüllen automatisch wächst
-		- Sorge dafür das das Array automatisch kleiner wird beim removen
+- Sorge dafür das das Array automatisch kleiner wird beim removen
 - Überlade den “[]” Operator angemessen
-- 
-
 
 	MyPtr<>
 	
