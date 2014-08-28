@@ -63,6 +63,8 @@ Erstelle eine Template Klasse die einen optimierten Pointer repräsentiert. Dies
 
 
 
+
+
 	OpenGL Basics Übung
 
 Erstelle ein OpenGL Projekt und inistialisiere ein Fenster in der Größe von 800x600. Gehe dabei Objektorientiert vor!
