@@ -7,6 +7,8 @@ Exercises
 
 Hallo liebe 913er hier gibts einige C++ Übungen:
 
+
+
 	 Vector Class
 
 Erstelle eine eigene Vector3 Klasse und/oder eine Vector2 Klasse. Versuche dabei an die Performance zu denken.
@@ -17,6 +19,7 @@ Stelle für den Benutzer nützliche Konstruktoren zur Verfügung.
 
 Nehme dir die Rule of Three zu Herzen und übe diese in dieser Übung:
 http://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)
+
 
 
 	 Binary Tree Structure
@@ -34,6 +37,7 @@ Auch hier nehm dir die Rule of Three zu Herzen.
 Wenn die Klasse erfolgreich implementiert ist mache einige Unit und Performance Tests, mal sehen wer die schnellste Datenstruktur programmiert ;)
 
 
+
 	Dynamic Array
 
 In dieser Übung wird ein generisches dynamisch vergrößerebares Array erstellt das vielseitig nutzbar ist und sich selber verwaltet.
@@ -46,6 +50,8 @@ Ablaufbeschreibung:
 - Sorge dafür das das Array automatisch kleiner wird beim removen
 - Überlade den “[]” Operator angemessen
 
+
+
 	MyPtr<>
 	
 Erstelle eine Template Klasse die einen optimierten Pointer repräsentiert. Diese soll eine Template Klasse sein und ihren Speicher selbst verwalten. 
@@ -53,6 +59,8 @@ Erstelle eine Template Klasse die einen optimierten Pointer repräsentiert. Dies
 - Denke an die Rule of Three
 - Erstelle eine Delete() Funktion
 - Erstelle eine getValue() Funktion
+
+
 
 
 	OpenGL Basics Übung
