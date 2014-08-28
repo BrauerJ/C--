@@ -1,4 +1,4 @@
-C--
+C++
 ===
 
 Exercises
@@ -45,3 +45,31 @@ Ablaufbeschreibung:
 - Sorge dafür das das Array beim befüllen automatisch wächst
 		- Sorge dafür das das Array automatisch kleiner wird beim removen
 - Überlade den “[]” Operator angemessen
+- 
+
+
+	MyPtr<>
+	
+Erstelle eine Template Klasse die einen optimierten Pointer repräsentiert. Diese soll eine Template Klasse sein und ihren Speicher selbst verwalten. 
+- Überlade die boolischen Operatoren (<=, !=, usw)
+- Denke an die Rule of Three
+- Erstelle eine Delete() Funktion
+- Erstelle eine getValue() Funktion
+
+
+	OpenGL Basics Übung
+
+Erstelle ein OpenGL Projekt und inistialisiere ein Fenster in der Größe von 800x600. Gehe dabei Objektorientiert vor!
+
+Das Finale Ergebnis soll so aussehen:  http://postimg.org/image/6v53fry5z/
+
+- Inistialisiere eine passende Kamera
+- Erstelle eine abstrakte Primitive Klasse mit der abstrakten Funktion draw()
+- Erstelle eine Quad und eine Circle Klasse die die draw() Methode implementieren und im Konstruktur folgendes übergeben bekommen:
+- Quad(int x, int y, int sizeX, int sizeY)
+- Circle(int x, int y, int radius)
+
+- Vergiss nicht aufzuräumen!
+
+
+	
