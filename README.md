@@ -169,3 +169,27 @@ void loadObj(const char* filename,  std::vector<glm::vec3> &vertices, std::vecto
 		uvs.push_back(uv);
 	}
 }
+
+
+
+Texture Loader Function:
+
+
+void loadTexture()
+{
+	glload::LoadTest loadTest = glload::LoadFunctions();
+
+	try
+	{
+		std::auto_ptr<glimg::ImageSet> pImageSet(glimg::loaders::stb::LoadFromFile("tex_wendy_2.jpg"));
+		textureID = glimg::CreateTexture(pImageSet.get(), 0);
+	}
+	catch(glimg::loaders::stb::StbLoaderException &e)
+	{
+		std::cerr << "Failed loading file";
+	}
+	catch(glimg::TextureGenerationException &e)
+	{
+		std::cerr << "Texture creation failed";
+	}
+}
