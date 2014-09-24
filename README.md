@@ -88,8 +88,8 @@ Das Finale Ergebnis soll so aussehen:  http://postimg.org/image/6v53fry5z/
 OBJ IMPORTER WIP:
 
 
-void loadObj(const char* filename,  std::vector<glm::vec3> &vertices, std::vector<glm::vec2> &uvs, std::vector<glm::vec3> &normals)
-{
+void loadObj(const char* filename,  std::vector<glm::vec3> &vertices, std::vector<glm::vec2> &uvs,std::vector<glm::vec3> &normals)
+	{
 	std::vector<unsigned int> vertexIndices, vertexTextureIndices, normalIndices;
 
 	std::vector<glm::vec3> tempVertices;
